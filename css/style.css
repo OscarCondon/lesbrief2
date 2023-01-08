@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  background:url('../images/achtergrond.jpg') repeat;
+}
+
+header {
+  background: url('../images/header.jpg');
+  width: 950px;
+  height: 270px;
+}
+
+header h1 {
+  font-size: 300%;
+  font-family: Arial, "Times New Roman", Times, serif;
+  color: yellow;
+  text-align: left;
+}
