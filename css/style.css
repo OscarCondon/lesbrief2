@@ -16,7 +16,73 @@ header {
 
 header h1 {
   font-size: 300%;
-  font-family: Arial, "Times New Roman", Times, serif;
+  font-family: Arial, Times, serif;
   color: yellow;
   text-align: left;
+}
+
+ul {
+  background: Yellow;
+  padding: 10px;
+}
+
+ul li {
+  background: pink;
+  padding: 5px;
+  border: solid 2px pink;
+  display: inline-block;
+}
+
+ul li a {
+  color: Yellow;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: orange;
+}
+
+section {
+  padding: 5px;
+  margin: 5px;
+  border: double 4px pink;
+}
+
+section article {
+  border: 3px solid purple;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: white;
+}
+
+article h2 {
+  border: 3px solid yellow;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: pink;
+}
+
+article p {
+  border: 3px solid pink;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: Yellow;
+}
+
+footer {
+  background: Yellow;
+}
+
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 90%;
+}
+
+.wrapper {
+  margin: 0 auto 0 auto;
+  width: 960px;
 }
