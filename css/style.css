@@ -9,8 +9,6 @@ body {
 }
 
 header {
-  position: sticky ;
-  top: 100px;
   background: url('../images/header.jpg');
   width: 950px;
   height: 150px;
@@ -26,8 +24,6 @@ header h1 {
 ul {
   background: Yellow;
   padding: 10px;
-  position: sticky;
-  top: 100px;
 }
 
 ul li {
